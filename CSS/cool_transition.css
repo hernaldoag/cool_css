@@ -1,0 +1,58 @@
+body {
+    background-color: #1C2A44;
+}
+
+div {
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background-color: #344056;
+    z-index: 1;
+    box-shadow: 0px 0px 15px #02E4E7;
+}
+
+.animated {
+    animation: animate 4s ease-in-out;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 0;
+    background-color: #344056;
+    box-shadow: 0px 0px 15px #02E4E7;
+    padding: 2% 5%;
+    border-radius: 25px;
+    color: white;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+    transition: all 0.4s;
+}
+
+.left {
+    top: 0;
+    left: 0;
+}
+
+.right {
+    top: 0;
+    right: 0;
+}
+
+@keyframes animate {
+    0% {
+        width: 0%;
+    }
+    50% {
+        width: 50%;
+    }
+    100% {
+        width: 0%;
+    }
+}
