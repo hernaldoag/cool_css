@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="This page will show basic html" />
+        <meta name="robots" content="index, follow" />
+        <title>Dynamic Form </title>
+        <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/dynamic_form.css" >
+    </head>
+    <body>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <form method="POST" onSubmit="{registerUser}">
+            <label for="username ">Username</label>
+            <input type="text " id='username' name='username' autocomplete='off'>
+            <label for="password ">Password</label>
+            <input type='password' id='password' name='password' autocomplete='off'>
+            <div class="container ">
+                <button type='submit' id='connect' class="button type3 ">
+                    <span>Connect</span>
+                </button>
+                <i class="fa fa-spinner " id='spinner' aria-hidden="true "></i>
+                <i class="fa fa-check " id='check' aria-hidden="true "></i>
+            </div>
+            <script src="./scritps/dynamic_form.js"></script>
+        </form>
+    </body>
+</html>
+
