@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+:root {
+    --font-style: 'Nunito Sans', sans-serif;
+}
+
+body {
+    font-family: var(--font-style);
+}
+
+body {
+    background-color: #1C2A44;
+}
+
+#progress {
+    background-color:#02E4E7;
+    height: 10px;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    /* Peut être important si vous avez un menu en position fixe */
+}
+
+h4 {
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+}
